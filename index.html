@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">KAI</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#routine">Routine</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya <span class="highlight">Kai</span> 👋</h1>
+            <p>Student | AI Agent Dev | Japanese Learner</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Projects</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                <a href="https://www.instagram.com/dylanictstudent/" target="_blank" rel="noopener noreferrer" class="social-btn instagram-btn">📸 Instagram</a>
+                <a href="https://hub.docker.com" target="_blank" rel="noopener noreferrer" class="social-btn docker-btn">🐳 Docker</a>
+                <a href="https://wa.me/62895396007200" target="_blank" rel="noopener noreferrer" class="social-btn whatsapp-btn">💬 WhatsApp</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="avatar">👨‍💻</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah siswa SMA Kelas XII yang sedang mengejar <strong>Bahasa Jepang dari nol (N5)</strong> dan eksplore dunia teknologi/AI secara paralel. Saat ini saya fokus belajar <strong>Python</strong> dan membangun <strong>AI Agent sederhana</strong> untuk menguji kecerdasan buatan yang bisa membantu aktivitas sehari-hari.</p>
+                    <p>Di luar teknologi, saya punya <strong>4 tahun pengalaman di financial market</strong> — dari analisis pasar, manajemen risiko, sampai eksperimen strategi trading dan backtesting. Saya juga punya basic accounting dan tertarik menggapai perpaduan <strong>finance + bisnis + Jepang</strong> ke depannya.</p>
+                    <p>Target saya: melanjutkan pendidikan dan masa aktif profesional di Jepang, di bidang yang menyentuh <strong>teknologi, bisnis, dan pasar finansial</strong>.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>🇯🇵</h3>
+                        <p>JLPT N4</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>📈</h3>
+                        <p>Trading</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>🤖</h3>
+                        <p>AI & Automation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🇯🇵</div>
+                    <h3>Bahasa Jepang</h3>
+                    <p>Fase awal N5 — baru mulai dari nol, fokus kanji & pola dasar</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3>AI Agent</h3>
+                    <p>Belajar & eksplore AI, mulai bikin agent sederhana dengan Python</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📈</div>
+                    <h3>Financial Market</h3>
+                    <p>4 tahun pengalaman — analisis pasar, trading, dan backtesting strategi</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💰</div>
+                    <h3>Finance & Bisnis</h3>
+                    <p>Basic accounting, pengelolaan portofolio, dan minat ekonomi</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Belajar dari dasar — scripting, automation, lanjut ke AI nanti</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Logic & Problem Solving</h3>
+                    <p>Nikmati logika, algoritma, dan pemecahan masalah teknis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🤖 AI Agent Scheduler</h3>
+                        <span class="badge">Featured</span>
+                    </div>
+                    <p>AI agent yang bisa mengatur jadwal otomatis melalui Telegram. Bisa baca spreadsheet, tentukan deadline berdasarkan jadwal pelajaran, dan kirim notifikasi.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Google Sheets API</span>
+                        <span>Telegram Bot</span>
+                    </div>
+                    <div class="project-footer">
+                        <span>Status: ✅ Live</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>📝 Google Workspace Automation</h3>
+                    </div>
+                    <p>Otomasi pengelolaan tugas sekolah dengan integrasi Google Sheets, Docs, dan Calendar. Sistem reminder otomatis untuk deadline.</p>
+                    <div class="tech-stack">
+                        <span>Google API</span>
+                        <span>Python</span>
+                        <span>Cron Jobs</span>
+                    </div>
+                    <div class="project-footer">
+                        <span>Status: ✅ Active</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>📊 Trading Backtester</h3>
+                    </div>
+                    <p>Tool untuk backtesting strategi trading menggunakan data historis. Membantu mengoptimalkan entry/exit points.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <div class="project-footer">
+                        <span>Status: 🔄 In Progress</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🎬 Video Production</h3>
+                    </div>
+                    <p>Proyek pembuatan video presentasi dengan scripting, editing, dan animasi menggunakan MoviePy dan FFmpeg.</p>
+                    <div class="tech-stack">
+                        <span>MoviePy</span>
+                        <span>FFmpeg</span>
+                        <span>PIL</span>
+                    </div>
+                    <div class="project-footer">
+                        <span>Status: ✅ Completed</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🇯🇵 Kanji N5 Learning System</h3>
+                    </div>
+                    <p>Sistem pembelajaran kanji otomatis via Telegram. Setiap hari mengirim 2-3 kanji baru dan menyimpan progress ke spreadsheet.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Google Sheets</span>
+                        <span>Cron</span>
+                    </div>
+                    <div class="project-footer">
+                        <span>Status: ✅ Active</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>📱 Portfolio Website</h3>
+                    </div>
+                    <p>Website portfolio personal ini sendiri! Responsive design dengan navigasi smooth dan section lengkap.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-footer">
+                        <span>Status: ✅ Just Built</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Routine Section -->
+    <section id="routine" class="routine">
+        <div class="container">
+            <h2>Daily Routine</h2>
+            <div class="routine-grid">
+                <div class="routine-card">
+                    <div class="routine-icon">🏫</div>
+                    <h3>Sekolah</h3>
+                    <p>Senin - Jumat, 07:00 - 15:00</p>
+                    <span class="routine-tag">Wajib</span>
+                </div>
+                <div class="routine-card">
+                    <div class="routine-icon">🇯🇵</div>
+                    <h3>Learning Japanese</h3>
+                    <p>Hari libur & sore hari</p>
+                    <span class="routine-tag">N5 Level</span>
+                </div>
+                <div class="routine-card">
+                    <div class="routine-icon">💪</div>
+                    <h3>Gym / Workout</h3>
+                    <p>Pagi atau sore hari</p>
+                    <span class="routine-tag">Konsisten</span>
+                </div>
+                <div class="routine-card">
+                    <div class="routine-icon">🎮</div>
+                    <h3>Gaming</h3>
+                    <p>Waktu luang (Valorant)</p>
+                    <span class="routine-tag">Rekreasi</span>
+                </div>
+                <div class="routine-card">
+                    <div class="routine-icon">📈</div>
+                    <h3>Learning Market</h3>
+                    <p>Malam hari & weekend</p>
+                    <span class="routine-tag">4 Tahun Exp</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>kai@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">💬</span>
+                        <div>
+                            <h3>Telegram</h3>
+                            <p>@kai</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">🇯🇵</span>
+                        <div>
+                            <h3>Lokasi</h3>
+                            <p>Tangerang Selatan, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <input type="email" placeholder="Email Anda" required>
+                    <textarea placeholder="Pesan Anda..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Kai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
